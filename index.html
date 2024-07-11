@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Call</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Users Information</h1>
+    <table id="usersTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody> </tbody>
+    </table>
+
+    <h2>Get User by ID</h2>
+    <input type="number" id="userIdInput" placeholder="Enter User ID">
+    <button onclick="getUserById()">Get User</button>
+    <p id="userDetails"></p>
+
+    <script src="app.js"> </script>
+</body>
+</html>
